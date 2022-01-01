@@ -1,0 +1,139 @@
+p{
+  background-color:whitesmoke;
+  color:black;
+  font-family:Georgia,serif;
+  border:blue 2px solid;
+  margin:4px 2px;
+  padding: 12px 8px 12px 8px;
+  
+  
+}
+strong{
+  color:green;
+  font-size:19px;
+  
+}
+img{
+
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color:blue;
+  background-color:yellow;
+  font-style:italic;
+  font-size:40px;
+  border:blue 2px solid;
+  text-align:center;
+  padding:12px;
+    
+  
+}
+
+code{
+  color:red;
+  font-weight:initial;
+  font-size:14px;
+}
+
+a{
+  font-weight:bold;
+  color:blue;
+}
+body{
+  background-color:lightblue;
+}
+ul:hover{
+  transform : scale(1.05);
+  text-align:center;
+}
+ul{
+  text-align:center;
+  font-size: 30px;
+}
+ul a{
+  color:black;
+}
+figcaption {
+  text-align:center;
+}
+
+table th{
+  color:darkblue;
+}
+table{
+  border:1px yellow solid;
+  margin:20px;
+  border:2px  black solid;
+  background-color: whitesmoke;
+  text-align:center;
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+table th, table td{
+  background-color:rgba(172,176,176,0.4);
+  border:2px  blue solid;
+  padding:2px;
+  background-color:lightgray;
+}
+table thead{
+  color:rgb(122,22,0);
+}
+table tbody th:first-child{
+   color:rgb(122,22,0);
+}
+
+img{
+  width:60%;
+}
+table{
+    width:50%;
+    
+  }
+
+@media (max-width:600px){
+  img{
+    width:80%;
+  }
+  figcaption{
+    visibility: hidden;
+  }
+  table{
+    width:50%;
+  }
+  p{
+    font-size: 15px;
+  }
+}
+ul li a{
+  text-decoration: none;
+}
+p{
+  border-radius: 8px;
+
+}
+#titre{
+  color:black;
+  font-style: italic;
+  background-image:url("../images/titre.jpg")
+}
+p:first-letter{
+  color:lightseagreen;
+  font-size:40px;
+}
+body{
+  background-image: url("../images/chaouen.jpg");
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width:auto;
+  height:auto;
+}
+caption{
+  color:white;
+}

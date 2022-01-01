@@ -1,0 +1,62 @@
+li{
+  list-style-type: none;
+  
+}
+img{
+  border-radius:29px;
+  box-shadow: 0px 0px 4px 4px rgba(100,240,202,0.6);
+}
+
+img.intro{
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+caption {
+  font-weight:bolder;
+  margin-bottom:5px;
+}
+a#source{
+  margin-left:80px;
+  font-size:20px;
+}
+
+ tbody tr:nth-child(2n) td,table tr:nth-child(2n) th{
+  background-color:rgba(176,176,176,0.05);
+}
+
+thead th{
+  background-color:LightYellow;
+}
+
+tbody tr th:first-child{
+ background-color:LightYellow;
+  
+}
+img{
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+ 
+}
+
+body{
+  font-family :  Georgia, "Times New Roman", serif;
+}
+p{
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+body{
+  background-image: url("../images/arriere.jpg");
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width:auto;
+  height:auto;
+}
+h1{
+  border-radius:90px;
+}
+li a{
+  color:white;
+}
